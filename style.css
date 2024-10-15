@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.384);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/548/555/607/old-books-wallpaper-preview.jpg); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    background: linear-gradient(90deg, rgba(204, 199, 199, 0.226) 0%, rgba(82, 75, 75, 0.507) 50%, rgb(56, 54, 54) 100% );
+    padding: 100px;
+    border-radius: 2%;
+    text-align: justify;
+    font-family:cursive;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    color: #cfdad8;
+}
+
+input {
+    background-color: #ccc; /* Fundo transparente */
+    border: 1px solid #ccc; /* Borda cinza, ajustável */
+    padding: 10px; /* Espaçamento interno */
+    color: #000; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: rgba(36, 28, 28, 0.5); /* Cor do placeholder, transparente se necessário */
+}
+
+button{
+    
+    background-color: #171817f8; /* Cor de fundo (verde) */
+
+    color: white; /* Cor do texto */
+
+    border: none; /* Sem bordas */
+
+    padding: 5px 10px; /* Espaçamento interno */
+
+    text-align: center; /* Alinhamento do texto */
+
+    text-decoration: none; /* Remove sublinhado */
+
+    display: inline-block; /* Alinha em bloco */
+
+    font-size: 14px; /* Tamanho do texto */
+
+    border-radius: 5px; /* Bordas arredondadas */
+
+    cursor: pointer; /* Ícone de cursor ao passar por cima */
+
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 1s ease, transform 0.5s ease;
+    width: 150px;
+}
+
+button:hover {
+
+    background-color: #373837; /* Cor de fundo ao passar o mouse */
+    transform:scale(1.08);
+
+}
+
+button:active {
+
+    background-color: #636863; /* Cor de fundo ao clicar */
+
+}
+
+button:disabled {
+
+    background-color: #ccc; /* Cor de fundo quando desabilitado */
+
+    cursor: not-allowed; /* Ícone de "não permitido" quando desabilitado */
+
+}
+.button-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    justify-content: center;
+    
+}
+
+.button-login-item{
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-login-item button{
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
