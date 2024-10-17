@@ -44,6 +44,11 @@ h1{
     color: #cfdad8;
 }
 
+h2{
+    padding-bottom: 10px;
+}
+
+
 input {
     background-color: #ccc; /* Fundo transparente */
     border: 1px solid #ccc; /* Borda cinza, ajustável */
@@ -128,3 +133,58 @@ button:disabled {
     font-size: 14px;
     cursor: pointer;
 }
+
+button {
+    cursor: pointer;
+}
+
+.clear{
+    background-color: #37383790;
+    border: none;
+}
+
+.solid{
+    background-color: #37383790;
+    border: none;
+    color: #fff;
+}
+
+.outline{
+    background-color: #37383790;
+    color: #fff;
+    
+}
+
+
+div i{
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    right: 5% ;
+    color: #7a7a7a;
+}
+
+
+.password-wrapper {
+    position: relative; /* Para posicionar o ícone dentro do input */
+    display: flex;
+    flex-direction: column; /* Faz com que o label fique acima do input */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+}
+
+input {
+    width: 100%;
+    padding-right: 40px; /* Espaço para o ícone no lado direito */
+    margin-top: 5px; /* Pequeno espaço entre o label e o input */
+}
+
+.password-wrapper i {
+    position: absolute;
+    right: 10px; /* Ícone no canto direito */
+    top: 70%; /* Centraliza o ícone no meio do campo de senha */
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #7a7a7a;
+}
+
